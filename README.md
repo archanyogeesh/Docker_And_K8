@@ -11,3 +11,14 @@ kubectl get deployments
 
 To get services:
 kubectl get services 
+
+Run Yml files
+kubectl apply -f k8s
+
+client docker 
+Build:docker build -t archansy/dockerandk8clientapp:0.1
+Push :archansy/dockerandk8clientapp:0.1
+
+Server docker 
+Build:docker build -t archansy/dockerandk8serverapp:0.1
+Push :archansy/dockerandk8serverapp:0.1
